@@ -3,9 +3,9 @@
 
 /* CSS RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* MAIN */
@@ -15,7 +15,7 @@ body {
 
 .discord_main {
   height: 100vh;
-  background-color: #1C1D22;
+  background-color: #1c1d22;
   display: flex;
   flex-direction: column;
 }
@@ -27,25 +27,36 @@ body {
 /* FOOTER */
 footer {
   height: 80px;
-  background-color: #2D2D35;
+  background-color: #2d2d35;
   flex-shrink: 0;
 }
 
 .discord_navbar {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-top: 20px;
 
-    i {
-        font-size: 30px
-        }
-    
-    img {
-        border-radius: 50%;
-        }
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
 
-  
+i {
+  font-size: 28px;
+  transform: translate(0, -5px);
+}
+
+img {
+  border-radius: 50%;
+  transform: translate(0, -5px);
+}
+
+span {
+ font-size: 12px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 }
