@@ -52,6 +52,7 @@ body {
     border-left: 20px solid #1c1d22;
     border-top-left-radius: 20px;
     margin-top: 20px;
+    width: 100%;
     }
 
   .btn { 
@@ -126,7 +127,7 @@ body {
   gap: 5px;
 }
 
- .name {
+.name {
       font-size: 16px;
       font-weight: 600;
     }
@@ -160,6 +161,38 @@ body {
       top: 20px;
     }
 
+  .busy {
+      background-color: red;
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      bottom: 10px;
+      left: 45px;
+      border: 3px solid rgb(41, 41, 41);
+    }
+
+.online {
+      background-color: rgb(51, 255, 0);
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      bottom: 10px;
+      left: 45px;
+      border: 3px solid rgb(41, 41, 41);
+    }
+
+  .away {
+      background-color: rgb(255, 208, 0);
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      bottom: 10px;
+      left: 45px;
+      border: 3px solid rgb(41, 41, 41);
+    }
 /* FOOTER */
 footer {
   height: 80px;
